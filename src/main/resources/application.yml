@@ -4,9 +4,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.99.217.173:3306/springboot5?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1:3306/springboot5?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
-    password: admin
+    password: root
     initialization-mode: never
     schema: classpath:schema.sql  # schema.sql中一般存放的是DDL脚本，即通常为创建或更新库表的脚本
     data: classpath:data.sql  # data.sql中一般是DML脚本，即通常为数据插入脚本
